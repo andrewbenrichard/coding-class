@@ -14,6 +14,21 @@
         font-size: larger;
         text-align: center;
     }
+    .demo {
+        font-family:fantasy;
+        font-size:larger;
+        text-align:center;
+    }
+    .dev {
+        font-family:fantasy;
+        font-size:larger;
+        text-align:center;
+    }
+    #nuxt {
+        font-size:larger;
+        font-family:fantasy;
+        text-align:center;
+    }
 
     </style>
 </head>
@@ -38,7 +53,12 @@
         </p>
 
 
-        <button >deactivte nuxt</button>
+        <button onclick="displayresult()">change text</button>
+        <script>
+            function displayresult() {
+                document.getElementById("nuxt").innerHTML="style nuxt!";
+            }
+        </script>
 
 
     </body>
