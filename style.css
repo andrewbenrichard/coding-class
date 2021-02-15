@@ -1,0 +1,11 @@
+p.title_style {
+    font-family: fantasy;
+    font-size: larger;
+    text-align: center;
+}
+.card {
+    width: 200px;
+    text-align: center;
+    display: inline-flex;
+    margin-left: 27px;
+}
