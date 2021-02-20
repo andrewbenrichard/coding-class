@@ -3,6 +3,12 @@ img.img.header-img {
     width: 100%;
 }
 
+.btn {
+    align-content: left;
+    position: relative;
+    display: inline;
+}
+
 .container {
     margin-top: 80px;
     align-items: center;
@@ -19,4 +25,17 @@ img.img.header-img {
 
 #icons-move {
     padding-top: 80px;
+}
+
+#let {
+    padding-top: 90px;
+    padding-bottom: 20px;
+    text-size-adjust: 50px;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+
+#let a {
+    font-size: 50px;
 }
