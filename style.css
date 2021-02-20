@@ -3,12 +3,6 @@ img.img.header-img {
     width: 100%;
 }
 
-.btn {
-    align-content: left;
-    position: relative;
-    display: inline;
-}
-
 .container {
     margin-top: 80px;
     align-items: center;
