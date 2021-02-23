@@ -33,3 +33,7 @@ img.img.header-img {
 #let a {
     font-size: 50px;
 }
+
+*p {
+    line-height: 2em;
+}
