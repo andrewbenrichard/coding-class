@@ -27,7 +27,7 @@
                     float: right;
                 }
                 
-                hr {
+                .hr {
                     height: 10px;
                     border: 1;
                     box-shadow: 0 10px 10px -10px #181616 inset;
@@ -108,5 +108,9 @@ ul:nth-of-type(1) {
                 }
                 
                 *p {
-                    line-height: 1.5em;
+                    line-height: 150%;
+                }
+                
+                h4 {
+                    colort: blue;
                 }
