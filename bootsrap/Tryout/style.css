@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(19, 57, 57);
+}
+
+.formclass {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 40px;
+}
+
+.formclass h1 {
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.formclass input {
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+    text-align: center;
+    display: block;
+    color: tomato;
+    border-radius: 5px;
+    align-items: center
+}
