@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+
+    <title>form data table</title>
+
+    <style>
+
+</style>
+
+  </head>
+  <body>
+
+    <h4 id="useremail"> Email is </h4>
+  
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.js" ></script>
+
+    <script>
+
+const params = new URLSearchParams(window.location.search)
+console.log(params);
+for (const param of params) {
+    const email = document.getElementById("useremail");
+    email.innerHTML = "email is " + param[1]
+  console.log(param)
+}
+
+    </script>
+  </body>
+</html>
