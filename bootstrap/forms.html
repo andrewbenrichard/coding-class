@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://sibrong.ams3.digitaloceanspaces.com/landing/coming_soon/assets/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Cetrine!</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+      
+      input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      
+      .col-25 {
+        float: justify;
+        width: 25%;
+        margin-top: 6px;
+      }
+      
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+            
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .col-25, .col-75, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
+      h2 {  
+         
+    border: 1px solid #f1eded;
+    text-align: center;
+    padding: 8px;
+  }
+  p {  
+         
+         border: 1px solid #f1eded;
+         text-align: center;
+         padding: 8px;
+       }
+      </style>
+   
+  </head>
+  <body>
+    <h1>Website Survey Questionnaire
+      </h1>
+   <div class="continer">
+     <div class="row">
+       <div class="col col 25">
+    <h2> Survey Questionnaire Form</h2>
+<p>Thank you for taking the time to answer these questions. The following questions are about to know how well known and successful is</p>
+</div>
+</div>
+</div> 
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <ul >
+        <li>Have you ever head about the site?</li>
+     
+</div>
+</div>
+<form action="/action_page.php">
+  <input type="radio" id="yes" name="Questionnaire" value="Yes">
+  <label for="male">yes</label><br>
+  <input type="radio" id="N0" name="Questionnaire" value="N0">
+  <label for="female">N0</label><br>
+  
+</form>
+</ul>
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+     <ul >
+        <li>How did you learn about the site?</li>
+      </div>
+    </ul> 
+        </div>
+          <div class="col-75">
+            <select id="Questionnaire" name="Questionnaire">
+              <option value="please select">Please select</option>
+              <option value="Friends and Relactive">Friends and Relactive</option>
+              <option value="Web and search Engine">Web and search Engine</option>
+              <option value="Banner Ad">Banner Ad</option>
+              <option value="pop up">pop up</option>
+              <option value="other">other</option>
+            </select>
+          </div>
+        </div>
+        <div class="container">
+          <form action="/action_page.php">
+          <div class="row">
+            <div class="col-md-12">
+              <ul >
+                <li>Do you purchase goods from the site?</li>
+              </ul>  
+        </div>
+        </div>
+        <form action="/action_page.php">
+          <input type="radio" id="yes" name="Questionnaire" value="Yes">
+          <label for="male">yes</label><br>
+          <input type="radio" id="N0" name="Questionnaire" value="N0">
+          <label for="female">N0</label><br>
+          
+        </form>
+         </div>
+        <div class="container">
+          <form action="/action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <ul >
+                <li>How old are you?</li>
+             
+        </div>
+        </div>
+        <form action="/action_page.php">
+          <input type="radio" id="under 18" name="Questionnaire" value="under 18">
+          <label for="male">under 18</label><br>
+          <input type="radio" id="18-25" name="Questionnaire" value="18-25">
+          <label for="female">18-25</label><br>
+          <input type="radio" id="25-45" name="Questionnaire" value="25-45">
+          <label for="female">25-45</label><br>
+          <input type="radio" id="45 and more" name="Questionnaire" value="45 and more">
+          <label for="female">45 and more</label><br>
+          
+        </form>
+        </ul>
+        <div class="container">
+          <form action="/action_page.php">
+          <div class="row">
+            <div class="col-25">
+             <ul >
+                <li>Gender?</li>
+              </div>
+            </ul> 
+                  <div class="col-75">
+                    <select id="Gender" name="Gender">
+                      <option value="please select">Please select</option>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <form action="/action_page.php">
+                <div class="row">
+                  <div class="col-75">
+                   <ul >
+                      <li>Over all are satisfied are you with our websit?</li>
+                    </div>
+                  </ul> 
+                      </div>
+                        <div class="col-75">
+                          <select id="Questionnaire" name="Questionnaire">
+                            <option value="please select">Please select</option>
+                            <option value="Daily">Daily</option>
+                            <option value="Once a week">Once a Week</option>
+                            <option value="Once a month">Once a Month</option>
+                            <option value="Once a year">Once a Year</option>
+                            <option value="Never">Never</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="container">
+                        <form action="/action_page.php">
+                        <div class="row">
+                          <div class="col-75">
+                           <ul >
+                              <li>How likely will you reconmend our website to your friends?</li>
+                            </div>
+                          </ul> 
+                              </div>
+                                <div class="col-75">
+                                  <select id="Questionnaire" name="Questionnaire">
+                                    <option value="please select">Please select</option>
+                                    <option value="Very likely">Very Likely</option>
+                                    <option value="Neutral">Neutral</option>
+                                    <option value="Very Unlikely">Very Unlikely</option>
+                                    <option value="Once a year">Once a Year</option>
+                                    <option value="Never">Never</option>
+                                  </select>
+                                </div>
+                              </div>
+        
+                              <div class="container">
+                                <form action="/action_page.php">
+                                <div class="row">
+                                  <div class="col-75">
+                                   <ul >
+                                      <li>How likely will you reconmend our website to your friends?</li>
+                                    </div>
+                                  </ul> 
+                                      </div>
+                                      
+                                        <div class="col-75">
+                                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                                        </div>
+                                      </div>
+    
+  
+                                      <div class="container">
+                                        <form action="/action_page.php">
+                                        <div class="row">
+                                         
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-75">
+                                       <input type="submit" value="Submit Application">
+    
+  </div>
+  
+  </form>
+</div>
+
+  
+  </body>
+</html>
