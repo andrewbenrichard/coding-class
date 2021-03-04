@@ -82,13 +82,17 @@ margin-top: 20px;
 <label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Allows you to store information so it can be reused throughout the program</label>
 <label for="if_condition"><input type="radio" name="ifstate"  value="25" id="if_condition" />Allows you to make a decision based on a condition.</label>
 
+<h2>Who is your favorite Programmer?</h2>
+<label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Gideon</label>
+<label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />Andrew B.</label>
+<label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Fashion ruk</label>
+<label for="if_condition"><input type="radio" name="ifstate"  value="25" id="if_condition" />Abdullahi</label>
+
 <button type="submit" value="Submit">Submit</button>
 
 </form>
-    
 <p>Your grade is: <span id="grade">__</span></p>
 <p id="grade2"></p>
-
 
 
 <script>
@@ -104,11 +108,11 @@ document.getElementById("form1").onsubmit=function() {
 	document.getElementById("grade").innerHTML = result;
 
  grading = [
-	   {score:0,feedback:"I don't think you studied", image: "none.jpg"},
-	   {score:25,feedback:"You need to spend more time. Try again", image: "poor.jpg"},
-	   {score:50,feedback:"I think you could do better. Try again.", image: "avg.jpg"},
-	   {score:75,feedback:"So close. Try again.", image: "above.jpg"},
-	   {score:100,feedback:"Excellent! You're a JavaScript pro!", image: "excellent.jpg"}
+	   {score:0,feedback:"Did you really studied"},
+	   {score:25,feedback:"You should study hard next time. Try again"},
+	   {score:50,feedback:"Hmmm, I think you could do better. Try again."},
+	   {score:75,feedback:"You are close. Try again."},
+	   {score:100,feedback:"Excellent! You're a JavaScript pro!"}
 	   ];
 	  
 for(i=0; i<grading.length; i++) {
