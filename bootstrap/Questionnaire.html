@@ -94,42 +94,6 @@ margin-top: 20px;
 <p>Your grade is: <span id="grade">__</span></p>
 <p id="grade2"></p>
 
-
-<script>
-document.getElementById("form1").onsubmit=function() {
-       variable = parseInt(document.querySelector('input[name = "variable"]:checked').value);
-	   sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
-	   con = parseInt(document.querySelector('input[name = "con"]:checked').value);
-	   ifstate = parseInt(document.querySelector('input[name = "ifstate"]:checked').value);
-	   
-	   
-	   result = variable + sub + con + ifstate;
-	   
-	document.getElementById("grade").innerHTML = result;
-
- grading = [
-	   {score:0,feedback:"Did you really studied"},
-	   {score:25,feedback:"You should study hard next time. Try again"},
-	   {score:50,feedback:"Hmmm, I think you could do better. Try again."},
-	   {score:75,feedback:"You are close. Try again."},
-	   {score:100,feedback:"Excellent! You're a JavaScript pro!"}
-	   ];
-	  
-for(i=0; i<grading.length; i++) {
-    if(result == grading[i].score) {
-    result2 = grading[i].feedback + "<br /><img src='" + grading[i].image + "' width='300'  />";
-	  }
-	  }
-
-
-document.getElementById("grade2").innerHTML = result2; 
-
-return false; // required to not refresh the page; just leave this here
-} //this ends the submit function
-
-</script>
-
-
 </div>
 </body>
 </html>
