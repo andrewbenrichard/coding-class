@@ -1,18 +1,6 @@
-form li {
-    list-style: none;
-    margin-bottom: 20px;
-}
-label {
-    display: block;
-    cursor: pointer;
-    color: #292929;
-    font-family: sans-serif;
-    padding-bottom: 10px;
-}
-form ul {
-    padding-left: 0%;
-}
-textarea {
-    width: 300px;
-    height: 200px;
+h1 {
+    background: url(../Bootstrap/images/nettuts-logo.png) no-repeat;
+    text-indent: -9999px;
+    width: 400px;
+    height: 400px;
 }
