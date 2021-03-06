@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* css comment */
+        /* *:hover{
+            text-transform: capitalize;
+            font-size: 10px;
+            margin: 10px 0;
+            transition:  2s,  4s;
+        } */
+        .am_sad:hover{
+            font-size: 10px;
+            margin: 10px 0;
+            transition:  2s,  4s;
+        }
+        .am_hungry:active{
+            font-size: 60px;
+            transition:  2s,  4s;
+        }
+        
+
+        body {
+             background-color: lightblue;
+            }
+            #am_angry{
+                color: red;
+            }
+            .am_sad{
+                color: orangered;
+            }
+            .am_hungry{
+                color: black;
+            }
+            .am_sad.am_hungry{
+                color: indigo;
+            }
+            .am_hungry .am_sad{
+                color: indigo;
+            }
+            h1>span{
+                color:peru;
+            }
+
+            h1 {
+            color: white;
+            text-align: center;
+            }
+
+            p {
+            font-family: verdana;
+            font-size: 20px;
+            }
+
+            
+            
+    </style>
+</head>
+<body>
+    <!-- <a href="">demo </a> -->
+    <h1> this is hello word</h1>
+    <h1> this is hello word</h1>
+    <h1 id="am_angry"> this is hello word</h1>
+    <h1 class="am_sad"> this is hello word</h1>
+    <h1 class="am_hungry"> this is hello word</h1>
+   
+    <h1 class="am_hungry "> this is hello word
+        <span class="am_sad">sad me</span>
+    </h1>
+    <h1> this is hello word
+        <span>sad me</span>
+    </h1>
+
+    <p>this is my p </p>
+    <p>this is my p </p>
+
+</body>
+</html>
