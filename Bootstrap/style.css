@@ -1,6 +1,14 @@
+body {
+    background: black;
+}
 h1 {
-    background: url(../Bootstrap/images/nettuts-logo.png) no-repeat;
-    text-indent: -9999px;
-    width: 400px;
-    height: 400px;
+    font-size: 120px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -5px;
+    color: #666;
+    text-transform: lowercase;
+    text-shadow: 0 1px 0 white;
+    font-variant:small-caps ;
 }
