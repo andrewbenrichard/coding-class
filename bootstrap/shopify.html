@@ -19,11 +19,38 @@
 }
 
 /* Style the top navigation bar */
-.topnav {
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
   background-color: #333;
 }
 
+li {
+  float: left; 
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 /* Style the topnav links */
 .topnav a {
   float: left;
@@ -42,29 +69,57 @@
 .intro {
  color: rgb(31, 187, 44);
 }
+/* Fake image */
+.fakeimg {
+  background-color: rgb(8, 59, 16);
+  width: 100%;
+  padding: 20px;
+  text-decoration: rgb(245, 242, 242);
+  color: rgb(248, 248, 248);
+ 
+}
+.intro{
+  text-decoration: rgb(245, 242, 242);
+  color: rgb(20, 0, 0);
+ 
+}
+a.one:link {color:#f5f3f3;text-decoration:none;}
+a.one:visited {color:#0000ff;text-decoration:none;}
+a.one:hover {text-decoration:none;}
+
+a.two:link {color:#f5f3f3;text-decoration:none;}
+a.two:visited {color:#0000ff;text-decoration:none;}
+a.two:hover {text-decoration:underline;}
+a.three:link {color:#f5f3f3;text-decoration:none;}
+a.three:visited {color:#0000ff;text-decoration:none;}
+a.three:hover {text-decoration:none;}
 
 </style>
        
     
   </head>
   <body>
-    <div class="topnav">
-        <a href="#">shopify</a>
-        <a href="#">Start</a>
-        <a href="#">Sell</a>
-        <a href="#">Market</a>
-        <a href="#">manage</a>
-        <a href="#" style="float:right">Pricing</a>
-        <a href="#" style="float:right">Learn</a>
-        <a href="#" style="float:right">Login</a>
-        <a  href="#" style="float:right"><label for="Start free trial">Start free trial</label><br></a> 
+   <ul>
+     <li><a class="active" href="#home">shopify</a></li>
+      <li><a href="#news">Start</a></li>
+      <li><a href="#">Sell</a></li>
+      <li><a href="#">Market</a></li>
+      <li><a href="#">manage</a></li>
+      <li><a href="#">Sell</a></li>
+
+      <li><a href="#" style="float:right">Pricing</a></li>        
+       <li> <a href="#" style="float:right">Learn</a></li>
+        <li> <a href="#" style="float:right">Login</a></li>
+        <li><a  href="#" style="float:right"><label for="Start free trial">Start free trial</label><br></a> </li>
+</ul>
+    
         
       </div>
-      <hr>
-
+      
+      <div class="p-5 bg-light border">
     <div class="container">
       <div class="row">
-        <div class="col col-md-5">
+        <div class="col col-md-6">
             <div class="intro">
                  <h1  class="intro"> Anyone, anywhere, can start a business
             </h1>
@@ -72,366 +127,195 @@
           <button class="btn btn- secondry btn-lg" type="button">
              Start free trial
           </button>
-          <button class="btn btn-primary btn-lg" type="button">
+          <button class="dropbtn btn btn-primary btn-lg" type="button">
             Enter Email
           </button>
          <p>Try Shopify free for 14 days, no credit card required.  By entering your email, you agree to receive marketing  emails from Shopify.
          </p> 
         </div>
-        <div class="col col-md-7">
+        <div class="col col-md-6">
             <img
             class="img header-img"
-            src="asset/Custom dimensions 800x400 px.jpeg" style="width:600px;height:400px;"
+            src="asset/images.jpg" style="width:500px;height:400px;"
             alt=""
           />
         </div>
       </div>
-    </div>
-    <div class="container">
-        <div class="row">
-           <div class="col col-md-12">
-             <br>
-            <h1 style="text-align:center;">
-            Create seamless payment 
-            <br>  experiences for your customers.
-            </h1>
-            <br>
-           </div>
-         </div>
-       </div>
-       <div class="container">
-        <div class="row">
-          <div class="col col-md-6">
-            <img
-              class="img header-img"
-              src="asset/pos-for-payments.a29ebf7.jpg" style="width:400px;height:600px;"
-              alt=""
-            />
-          </div>
-          <div class="col col-md-6">
-            <h1> Accept payments <br> anywhere..
-            </h1>
-            <br>
-            <p>Tone platform that lets you sell wherever your customers <br> are — online, in‑person, anywhere in the world, and <br> everywhere in‑between.</p>
-          <br>
-          <div class="container">
-            <div class="row">
-          <div class="col col-md-6">
-            <h6>Online (Website & Mobile)</h6>
-            <p>Sell online with an ecommerce <br> website, Mobile App and more.</p>
-           </div>
-          <div class="col col-md-6">
-            <h6>POS (Point Of Sale)</h6>
-            <br>
-            <p>Sell in-person at your store locations, pop-ups, concerts.</p>
-            </div>
-            <div class="col"> 
-               <h6 style="text-align: justify;">Reach more people with more payment methods</h6>
-               <p>Sell online with an ecommerce  website, Mobile App and more.</p>
-            </div>
-            <div class="container">
-            <div class="row">
-            <div class="col">
-                <ul class="list-style-type:"check; >
-                    <li class="list-style-type">
-                      
-                      Debit and Credit Cards
-                    </li>
-                    <li class="list-style-type">
-                      
-                      Bank Account
-                    </li>
-                    <li class="list-style-type">
-                     
-                      Mobile Money
-                    </li>
-                    <li class="list-style-type">
-                      
-                      POS
-                    </li>
-                    <li class="list-style-type">
-                      
-                      M-Pesa
-                    </li>
-                    <li class="list-style-type">
-                        
-                        Visa QR
-                      </li>
-                      <li class="list-style-type">
-                        
-                        Bank Transfer
-                      </li>
-                      <li class="list-style-type">
-                        
-                        USSD
-                      </li>
-                  </ul>
-            </div>
-            </div>
-        </div>
-        </div>
-          </div>
-          </div>
-        </div>
       </div>
-      <div class="container">
-          <div class="row">
-            <div class="col col-md-6">
-                <video width="520" height="440">
-                        <source src="asset/cards.a5becc9.mp4" type="video/mp4">
-                        <source src="asset/cards.a5becc9.mp4" type="video/ogg">
-                            Your browser does not support the video tag.
-                </video>
-                  
-              </div>
-            <div class="col col-md-6">
-          <h3> Issue cards, create new businesses.
-            </h3>
-            <p>Create cards for your team, add spending limits, make them site-specific and so much more.</p>
-            <div class="col">
-              <h6>Create virtual Mastercard and VISA cards</h6>
-              <p>Using the Flutterwave API, you can instantly create and manage virtual <br>cards.  Cards can be used instantly through mobile wallets and global <br>websites.</p>
-        </div>
-        <div class="col">
-          <h6>Create new FinTech businesses</h6>
-          <p>With just a few lines of Issuing API code, the possibilities for your new <br> FinTech business(es) are endless.</p>
+    </div>
   </div>
-         <div class="col">
-          <h6 style="text-align:center;"><a href="https://flutterwave.com/ng/card-issuing">Learn more about card issues</a></h6> 
-       
-         </div>
-         
-      </div>
-    </div>
+  <div class="fakeimg" style="height:800px;"> 
     <div class="container">
-        <div class="row">
-          <div class="col col-md-7">
-              <video width="520" height="440">
-                      <source src="asset/radar.c0a3233.mp4" type="video/mp4">
-                      <source src="asset/radar.c0a3233.mp4" type="video/ogg">
-                          Your browser does not support the video tag.
-              </video>
-                
-            </div>
-          <div class="col col-md-5">
-        <h3> Safety and security guaranteed.
-          </h3>
-          <p>CAt Flutterwave, we take security seriously so every payment made on our platform is 100% secure, even exceeding industry standard..</p>
-          <div class="col">
-            <h6>ISO 27001 & 22301 Certification</h6>
-            <p>The ISO 27001 & 22301 certification means that we have acceptable bbusiness practices and processes, including a robust business continuity plan.</p>
-      </div>
-      <div class="col">
-        <h6>Create new FinTech businesses</h6>
-        <p>With just a few lines of Issuing API code, the possibilities for your new FinTech business(es) are endless.</p>
-</div>
-       <div class="col">
+      <div class="row">
+         <div class="col col-md-12">
+          <h4 style="text-align:justify;">
+            Bring your business online.
+            </h4>  
+            <p>Create an ecommerce website backed by powerful tools that help you find customers, drive sales, and manage your day-to-day.</p>         
+            <p><b><a class="one href="default.asp" target="_blank">Explor more example</a></b></p>
+
+          </div>
+       </div>
+     </div>
+     <div class="container">
+      <div class="row">
+        <div class="col col-md-2">
+          <img
+            class="img header-img"
+            src="asset/home-example-small-10f5c2735cb72e18af4d47a31a72326b3eb1f0611963d69d12a51ed31bed4acd.jpg" style="width:150px;height:300px;"
+            alt=""
+          />
+          <p><p><a class="two" href="default.asp" target="_blank">FOOD & DRINK</a></p>
+        </p>
+        <p><a class="three" href="default.asp" target="_blank">Alfred</a></p>
+        </div>
+        <div class="col col-md-2.5">
+          <img
+            class="img header-img"
+            src="asset/home-example-small-6cf57deaaf9e7c38f45de3d300080353843430c1be3ab0ed3cd5e21b93157de8.jpg" style="width:150px;height:300px;"
+            alt=""
+          />
+          <p><p><a class="two" href="default.asp" target="_blank">JEWELRY</a></p>
+        </p>
+        <p><a class="three" href="default.asp" target="_blank">Corey Morains</a></p>
+        </div>
+        <div class="col col-md-2.5">
+          <img
+            class="img header-img"
+            src="asset/home-example-small-4bc93b93a9d345329480ea6e387cf6890323170a70473bad69a87424cad52e28.jpg" style="width:150px;height:300px;"
+            alt=""
+          />
+          <p><p><a class="two" href="default.asp" target="_blank">FOOD & DRINK</a></p>
+        </p>
+        <p><a class="three" href="default.asp" target="_blank">Detour Coffee</a></p>
+        </div>
+                 
+        <div class="col col-md-2.5">
+          <img
+            class="img header-img"
+            src="asset/home-example-small-873ea125aea32650f2e2c282609c62a63be928583b8830cc67df98feff30ca89.jpg " style="width:150px;height:300px;"
+            alt=""
+          />
+          <p><p><a class="two" href="default.asp" target="_blank">BEAUTY & COSMETICS</a></p>
+        </p>
+        <p><a class="three" href="default.asp" target="_blank">Then I Met You</a></p>
+        </div>
+        <div class="col col-md-2.5">
+          <img
+            class="img header-img"
+            src="asset/home-example-small-8bb452f93af6069b33cdc00d9fab7cacaa32d34684bda58e13eb25faadeb2b72.jpg" style="width:150px;height:300px;"
+            alt=""
+          />
+          <p><p><a class="two" href="default.asp" target="_blank">HOME & GARDENS</a></p>
+        </p>
+        <p><a class="three" href="default.asp" target="_blank">Detour Coffee</a></p>
+        </div>
         <br>
-        <h6>PA DSS & PCI DSS Compliant</h6> 
-        <p>This certification is proof that Flutterwave as a payment gateway processor has satisfied highest level of Security Audit.</p>
-     <br>
-       </div>
-       
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col col-md-7">
-       <br>
-        <object width="100%" height="500px" data="asset/Top Online Payment Gateway in Nigeria _ Best Payment Processing.html"></object>
+        <div class="container">
+          <div class="row">
+             <div class="col col-md-12">
+              <h5 style="text-align:justify;">
+                Take the best path forward
+                </h5>  
+              </div>
+           </div>
+         </div>
+         <br> <br>
+         <br>
+         <div class="container">
+          <div class="row">
+            <div class="col col-md-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="26" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+              </svg>
+              <br> <br>
+              <h6>Start an Online Business</h6>
+              <p>Create a business, whether you’ve got a fresh idea or are looking for a new way to make money.</p>
             
-        </div>
-      <div class="col col-md-5">
-    <h2> The best businesses all over the world, big and small, trust Flutterwave for growth.
-      </h2>
-      <br>
-      <p>Flutterwave supports some of the best businesses all over the world.</p>
-      <div class="col">
-          <br>
-        <h6 ><a href="https://flutterwave.com/ng/customers">Check out our customer service stories</a></h6>        </div>
-      </div>
-   </div>
-    
-    <div class="container">
-        <div class="row">
-           <div class="col col-md-12">
-            <br>
-                <h3 style="text-align:center;">Get started now to grow your business.
-
-                </h3>
-                <h6 style="text-align:center;">Create an account or get in touch with us.</h6> 
-                
-                <div class="container">
-                    <div class="row">
-                <div class="col col-md-12">     
-                    <button style="text-align: justify;" class="btn btn-primary btn-lg" type="button">
-                      Create Acount
-                    </button>
-                    <button style="text-align: justify;" class="btn btn- secondry btn-lg" type="button">
-                       Speak With Us
-                    </button>
-                  </div>
             </div>
-            <div class="container">
-                <div class="row">
-                  <div class="col col-md-2.5">
-                     <br> 
-                      <h6><a href="https://flutterwave.com/ng">Flutterwave</a></h6> 
-                    <p>
-                        <a href="https://flutterwave.com/images/flags/ng.svg">Nigeria</a>
-                    </p>
-                  </div>
-                  <div class="col col-md-2.5">
-                        <br> 
-                          <h6>OUR SOLUTIONS</h6>
-                        <p>
-                            <br>
-                            Checkout
-                            <br>
-                            <br>
-                            Card Issuing
-                            <br>
-                            <br>
-                            Store
-                            Invoice
-                            <br>
-                            <br>
-                            Payment Links
-                            <br>
-                            <br>
-                            Consumers</a>
-                        </p>
-                      </div>
-                 <div class="col col-md-2.5">
+            <div class="col col-md-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="26" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+                <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+              </svg>
+              <br> <br>
+              <h6>Move your Business Online</h6>
+              <p>Turn your retail store into an online store and keep serving customers without missing a beat.</p>
+            
+            </div>
+            <div class="col col-md-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="26" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.624 9.624 0 0 0 7.556 8a9.624 9.624 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.595 10.595 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.624 9.624 0 0 0 6.444 8a9.624 9.624 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5z"/>
+                <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192zm0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192z"/>
+              </svg>
+              <br> <br>
+              <h6>Switch to Shopify</h6>
+              <p>Bring your business to Shopify, no matter which ecommerce platform you’re currently using.</p>
+            </div>
+                     
+            <div class="col col-md-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="26" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+                <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+              </svg>
+              <br> <br>
+              <h6>Hire a Shopify Expert</h6>
+              <p>Get set up with the help of a trusted freelancer or agency from the Shopify Experts Marketplace.</p>
+            </div>
+          </div>
+         </div>
+      </div>
+  </div>
+           <br> <br> <br><br>
+<div class="intro">
+  <div class="container">
+              <div class="row">
+                <div class="col col-md-12">
+                  
                          <br>
-                          <h6>COMPANY</h6>
-                        <p>
-                            <br>
-                            About Us
-                            <br>
-                            <br>
-                            Careers
-                            <br>
-                            <br>
-                            Press & Media
-                            <br>
-                            <br>
-                            Customers
-                            <br>
-                            <br>
-                            Wave Podcast
+                        <h5 style="text-align:center;">
+                          With you wherever you’re going
+                        
+                        </h5>
+                        <p style="text-align:center;">
+                        One platform with all the ecommerce and point of sale features <br> you need to start, run, and grow your business.
+
                         </p>
                         <br>
-                      </div>
-                     <div class="col col-md-2.5">
-                          <br>
-                          <h6>LEGAL</h6>
-                        <p>
-                            <br>
-                            Terms & Conditions
-                            <br>
-                            <br>
-                            Privacy Policy
-                            <br>
-                            <br>
-                            Cookies Policy
-                            <br>
-                            <br>
-                            Merchant Service Agreement
-                            <br>
-                            <br>
-                            Payment Protection Promise
-                        </p>
-                        <br>
-                      </div>
-                      <div class="col col-md-2.5">
-                        <br>
-                        <h6> LAGOS</h6>
-                      <p>
-                          <br>
-                         8, Providence street,
-                          <br>
-                          <br>
-                          Lekki Phase One,
-                          <br>
-                          <br>
-                          Lagos, Nigeria.
-                          <br>
-                    </p>
-                      <br>
-                    </div>
-                    <div class="container">
-                    <div class="row">
-                    <div class="col 12">
-                        <h6 style="text-align:center;">CONTACT US</h6>  
-                     <p style="text-align:center;"><a href="hi@flutterwavego.com">hi@flutterwavego.com</a></p>
                        </div>
-
-                       <div class="container">
-                        <div class="row">
-                        <div class="col col-md-5">
-                                <br> 
-                                  <h6>DEVELOPERS
-                                </h6>
-                                <p>
-                                    Documentation
-                                    <br>
-                                    Status
-                                    <br>
-                                   Integration Specialists
-                                </p>
-                            </div>     
-                         <div class="col col-md-7">
-                                    <br>
-                                    <h6>COMPANY</h6>
-                                   <p> 
-                                    LEARN
-                                    <br>
-                                    Integrations
-                                    <br>
-                                    Blog
-                                    <br>
-                                    Pricing
-                                    <br>
-                                    Sitemap
-                                    </p>
-                              </div>
-                         
-           <div class="container">
-            <div class="row">
-               <div class="col col-md-2.5">
-                <br>
-                 <h6> © Copyright 2021 
-                </h6> 
-                                  
-               </div> 
-               <div class="col col-md-2.5">
-                <br>
-                <h6> Twitter
-                </h6> 
-            </div>      
-                <div class="col col-md-2.5">
-                    <br>
-                    <h6> Facebook
-                    </h6> 
-                     </div>                  
-                   <div class="col col-md-2.5">
-                    <br>
-                    <h6> Instagram
-                    </h6> 
-                </div>  
-                <div class="col col-md-2.5">
-                    <br>
-                    <h6> Youtube
-                    </h6> 
-                </div>     
-                <div class="col col-md-2.5">
-                    <br>
-                    <h6> Linkedin
-                    </h6> 
-                </div>            
+                     </div>
+                     <div class="container">
+                      <div class="row">
+                    <div class="col col-md-6">
+                  <video src="asset/sell-animation-desktop-e91e64db2d38816861b2eb3243eb9d8b28225f47269954d9f257cc850bb2f33a.mp4"  style="width:500px;height:300px;"></video>
                 </div>
-
+              
+                  <div class="col col-md-6"></div>
+                  <h1> Accept payments <br> anywhere..
+                  </h1>
+                  <br>
+                  <p>Tone platform that lets you sell wherever your customers <br> are — online, in‑person, anywhere in the world, and <br> everywhere in‑between.</p>
+                <br>
+                      </div>
+              </div>
+            </div>
+                <div class="container">
+                  <div class="row">
+                <div class="col col-md-6">
+                  <h6>Online (Website & Mobile)</h6>
+                  <p>Sell online with an ecommerce <br> website, Mobile App and more.</p>
+                 </div>
+                <div class="col col-md-6">
+                  <h6>POS (Point Of Sale)</h6>
+                  <br>
+                  <p>Sell in-person at your store locations, pop-ups, concerts.</p>
+                  </div>
+                  <div class="col"> 
+                     <h6 style="text-align: justify;">Reach more people with more payment methods</h6>
+                     <p>Sell online with an ecommerce  website, Mobile App and more.</p>
+                  </div>
+                </div>
+              
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
