@@ -1,0 +1,88 @@
+/* 
+general styling
+*/
+*{
+    font-family: sans-serif;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    color: #333;
+}
+p{
+    margin-bottom: 0px;
+}
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+h4{}
+
+h5{}
+
+h6{
+
+}
+img{
+
+}
+
+/* 
+Shopify payment page styling
+*/
+.payment_hero_wrapper{
+    background-color: #004c3f;
+    padding-left: 50px;
+    padding-top: 50px;
+    color: #fff;
+}
+.shp_hero_contents>p {
+    color: #90dfd6;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.shp_hero_contents>h1 {
+    margin-top: 35px;
+    margin-bottom: 11px;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.shp_hero_contents>h3 {
+    font-size: 25px;
+    margin-top: 27px;
+    padding-right: 96px;
+    margin-bottom: 60px;
+}
+
+.shp_hero_contents>a {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #004c3f;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+p.sec_cta {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 15px;
+    text-transform: initial;
+    font-weight: 500;
+}
+p.sec_cta>a{
+    color: #fff;
+    text-decoration: underline;
+}
+p.sec_cta>a:hover{
+    text-decoration: none;
+}
