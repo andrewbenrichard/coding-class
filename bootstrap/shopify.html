@@ -11,43 +11,47 @@
     <title>shopify</title>
     <style>
         /* css comment */
-       /* Style the header */
-.header {
-  background-color: #f1f1f1;
-  padding: 20px;
-  text-align: center;
-}
+      
 
 /* Style the top navigation bar */
 
-  ul {
+ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 20;
   overflow: hidden;
-  background-color: rgb(250, 248, 248);
+  background-color: rgb(252, 252, 252);
 }
 
 li {
-  float: left; 
+  float: left;
 }
 
 li a {
   display: block;
-  color: rgb(41, 3, 3);
+  color: rgb(7, 4, 4);
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 16px;
   text-decoration: none;
 }
 
+li a:hover:not(.active) {
+  background-color: rgb(255, 253, 253);
+}
+
+.active {
+  background-color: #ffffff;
+}
+
+
 li a:hover {
-  background-color: #111;
+  background-color: rgb(255, 255, 255);
 }
 .dropbtn {
   background-color: #4CAF50;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 14px;
+  font-size: 12px;
   border: none;
   cursor: pointer;
 }
@@ -55,7 +59,7 @@ li a:hover {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #fffdfd;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -63,15 +67,19 @@ li a:hover {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(255, 255, 255);
   color: black;
+}
+.introo {
+  background-color: rgb(255, 255, 255);
 }
 .intro {
  color: rgb(31, 187, 44);
+   
 }
 /* Fake image */
 .fakeimg {
-  background-color: rgb(8, 59, 16);
+  background-color: rgb(17, 99, 78);
   width: 100%;
   padding: 20px;
   text-decoration: rgb(245, 242, 242);
@@ -102,29 +110,30 @@ p {
        
 </head>
   <body>
-   <ul>
-     <li><a class="active" href="#home">shopify</a></li>
+    <ul>
+  
+      <li><a href="#home">shopify</a></li>
       <li><a href="#news">Start</a></li>
-      <li><a href="#">Sell</a></li>
-      <li><a href="#">Market</a></li>
-      <li><a href="#">manage</a></li>
-      <li><a href="#">Sell</a></li>
-
-      <li><a href="#" style="float:right">Pricing</a></li>        
-       <li> <a href="#" style="float:right">Learn</a></li>
-        <li> <a href="#" style="float:right">Login</a></li>
-        <li><a  href="#" style="float:right"><button class="dropbtn btn btn-primary btn-lg" type="button" >
-          Start free trial
-        </button><br></a> </li>
-</ul>
+      <li><a href="#contact">Sell</a></li>
+      <li><a href="#contact">Market</a></li>
+      <li><a href="#contact">manage</a></li>
+      <li style="float:right"><a class="active" href="# Start free trial"><button class="dropbtn btn btn-primary btn-lg" type="button" >
+        Start free trial
+      </button><br></a> </li>
+      <li style="float:right"><a class="active" href="#pricing">Pricing</a></li>
+      <li style="float:right"><a class="active" href="#learn">Learn</a></li>
+      <li style="float:right"><a class="active" href="#login">Login</a></li>
+      
+    </ul>
     
         
       </div>
-      
+      <div class="introo">
       <div class="p-5 bg-light border">
     <div class="container">
       <div class="row">
         <div class="col col-md-6">
+          
             <div class="intro">
                  <h1  class="intro"> Anyone, anywhere, can start a business
             </h1>
@@ -146,9 +155,11 @@ p {
           />
         </div>
       </div>
-      </div>
+     </div>
     </div>
   </div>
+  </div>
+</div>
   <div class="fakeimg" style="width: 500;  height:800px;"> 
     <div class="container">
       <div class="row">
