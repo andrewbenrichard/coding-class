@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient( to bottom right, rgb(199, 57, 57), rgb(185, 185, 92));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+}

@@ -9,7 +9,7 @@
     background-image: linear-gradient(rgba(0, 0, 0.4), rgba(0, 0, 0.4)), url(banner.jpg);
     background-position: center;
     background-size: cover;
-    position: ;
+    position: fixed;
 }
 
 .form-box {
@@ -122,4 +122,13 @@
 .gender {
     margin: 10px 20px;
     padding: 10px 10px;
+}
+
+#createaccount {
+    border: rgb(79, 19, 102);
+    outline: none;
+    background: chartreuse;
+    align-items: center;
+    width: 70px;
+    font-size: 15px;
 }

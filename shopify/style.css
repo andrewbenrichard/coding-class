@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.alpha1 {
+    position: fixed;
+    background: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 10px 50px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-ct .col-md-7 {
+    padding-top: 80px;
+}
+
+.aplha1 .logo {
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+.logo {
+    display: inline-flex;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.alpha1 .nav-ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.nav-ul li a {
+    font-size: 20px;
+    color: rgb(27, 27, 27);
+    margin: 0px 20px;
+}
+
+.alpha1 a {
+    text-decoration: none;
+}
+
+.nav-ul .logo {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+
+/*end of nav css*/
+
+.col-md-7 h2 {
+    font-weight: 600;
+    color: rgb(12, 87, 12);
+    padding-top: 120px;
+}
+
+.col-md-5 img {
+    width: 500px;
+    height: 500px;
+}
+
+#email {
+    border: 0.5px solid rgb(37, 37, 37);
+    border-radius: 5px;
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0px;
+    margin-right: 15px;
+    outline: none;
+}
+
+#email:hover {
+    outline: thin tomato;
+    border: 1px solid #4baa9a;
+}
+
+.input1 a {
+    text-decoration: none;
+    color: white;
+    width: 90px;
+    font-weight: 400;
+}
+
+#success {
+    width: 90px;
+    padding: 10px;
+    background-color: rgba(2, 49, 2, 0.911);
+    border-radius: 5px;
+}
+
+#success button {
+    font-weight: 400;
+    font-family: cursive;
+}
+
+.col-2 a {
+    text-decoration: none;
+}
+
+.col-2 a:hover {
+    text-decoration: underline;
+    font-family: cursive;
+    color: rgb(112, 218, 126);
+}
+
+#success button:hover {
+    color: rgb(179, 230, 179);
+}
+
+.green-section {
+    background: #004c3f;
+}
+
+.green-section * {
+    color: white;
+}
+
+.green-section h2 {
+    padding-top: 30px;
+}
+
+.col img {
+    height: 50vh;
+    padding-bottom: 10px;
+}
+
+.col-md-3 img {
+    padding: 15px 0;
+}
+
+.col a {
+    text-decoration: none;
+    text-transform: initial;
+}
+
+.col a:hover {
+    color: rgb(112, 218, 126);
+    text-decoration: underline;
+}
+
+.col-10 p {
+    font-size: 15px
+}
+
+.col-2 a {
+    font-size: 15px;
+}
+
+.col-2 a:hover {
+    color: rgb(88, 143, 88);
+}
+
+footer {
+    text-align: center;
+    color: rgb(88, 143, 88);
+}
+
+#colmiddle h2 p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+}
