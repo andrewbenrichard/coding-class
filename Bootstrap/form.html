@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            HTML Forms
+        </title>
+        <link rel="stylesheet" href="../Bootstrap/text.css" />
+    </head>
+    <body>
+        <form action="" method="GET">
+            <h1>Data Entry Form</h1>
+            <!-- Form should be in a li value -->
+            <ul>
+           <li><label for="username">
+                Username
+            </label>
+             <input id="username" name="username" />
+             </li>
+             <li>
+             <label for="email">
+                 Email
+             </label>
+             <input type="email" name="email" id="email">
+             </li>
+             <li>
+                 <label for="password">
+                     Password
+                 </label>
+                 <input type="password" name="pwd_user" id="password">
+             </li>
+             <li>
+                 <label for="confirm_password">
+                     Confirm Password
+                 </label>
+                 <input type="password" name="pwd_confirm" id="confirm_password">
+             </li>
+              <li>
+                  <label for="gender">
+                      Gender
+                  </label>
+                  <input type="radio" name="DBgender" id="gender" value="m"> male
+                  <input type="radio" name="DBgender" id="gender" value="f"> Female
+              </li>
+              <li>
+                  <label for="challenge">
+                      Are You physically Challenge
+                  </label>
+                  <input type="radio" name="DBQuestion" id="challenge" value="Y"> yes
+                  <input type="radio" name="DBQuestion" id="challenge" value="N"> No
+              </li>
+              <li>
+                  <label for="skils">
+                      Software Skills
+                  </label>
+                  <input type="checkbox" name="softwareskills" id="skills" value="H">HTML
+                  <input type="checkbox" name="softwareskills" id="skills" value="CS">CSS
+                  <input type="checkbox" name="softwareskills" id="skills" value="JS">JAVASCRIPT
+                  <input type="checkbox" name="softwareskills" id="skills" value="JS">RUBY
+                  <input type="checkbox" name="softwareskills" id="skills" value="JS"> NODE.js
+                  <input type="checkbox" name="softwareskills" id="skills" value="JS">PHTYON
+                  <input type="checkbox" name="softwareskills" id="skills" value="JS">LARAVEL
+              </li>
+              <li>
+                  <label for="Qualification">
+                      Qualification
+                  </label>
+                  <select name="slctQualification">
+                      <option value="N">None</option>
+                      <option value="S">SSCE</option>
+                      <option value="O">OND</option>
+                      <option value="PH">PHD</option>
+                      <option value="M">Masters</option>
+                  </select>
+               </li>
+               <input type="submit" name="submitbutton" onclick="alert('You Have Submit sucessfully.')" class="btn" value="Done">
+               </ul>
+        </form>
+    </body>
+</html>
