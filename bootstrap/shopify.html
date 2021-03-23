@@ -11,23 +11,25 @@
     <title>shopify</title>
     <style>
         /* css comment */
-      
+   
+ 
 
 /* Style the top navigation bar */
-
 ul {
+  width: 100%;
   list-style-type: none;
   margin: 0;
   padding: 20;
   overflow: hidden;
   background-color: rgb(252, 252, 252);
+   
 }
 
 li {
   float: left;
 }
 
-li a {
+li a {width: 100%;
   display: block;
   color: rgb(7, 4, 4);
   text-align: center;
@@ -55,6 +57,7 @@ li a:hover {
   border: none;
   cursor: pointer;
 }
+
 /* Style the topnav links */
 .topnav a {
   float: left;
@@ -149,6 +152,18 @@ p {
   background-color:  rgb(17, 99, 78);
   padding: 10px;
   
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 320px) {
+  /* For mobile phone: */
+  
+
 }
 </style>
        
