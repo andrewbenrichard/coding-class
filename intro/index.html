@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to js</title>
+</head>
+<body>
+    
+    <script>
+       
+    const string = "dsafkasd ldkaj f";
+    const int = 34059843275;
+    const float = 10000.00;
+    const boolean =  false;
+    const array = [
+        {
+            username: "john",
+            number: "081633333337",
+            bully: true
+        },
+        {
+            username: "mark",
+            number: "084215324312",
+            bully: false
+        },
+    ];
+    let object = {
+            username: "mark",
+            number: "084215324312",
+            bully: false
+        }, ;
+    const isNull = null;
+    const isUndefined = undefined;
+
+
+    for (let index = 0; index < array.length; index++) {
+        const element = array[index];
+        if (element.bully) {
+            console.log("user name is "+element.username+" and his number is "+element.number+". This idiot is a bully");  
+        }else{
+            console.log("user name is "+element.username+" and his number is "+element.number+". This a good kid");  
+        }
+    }
+  
+
+    </script>
+</body>
+</html>
