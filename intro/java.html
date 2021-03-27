@@ -9,42 +9,25 @@
 <body>
     
     <script>
-       // a one line comment
+     const halve = function(n) {
+  return n / 2;
+};
 
-/* this is a longer,
- * multi-line comment
- */
-
-/* You can't, however, /* nest comments */ SyntaxError 
-    const string = "john doe"; // strings are in quotes
-    const int = 34059843275; //integral are numbers
-    const float = 10000.00; // floats are like decimal deta
-    const boolean =  false; // booleans are either true or false
-    const array = [ // is a collection of objects
-        {
-            username: "john",
-            number: "081633333337",
-            bully: true
-        },
-        {
-            username: "mark",
-            number: "084215324312",
-            bully: false
-        },
-    ];
-    let object = { //objects is a collection of data
-            username: "mark",
-            number: "084215324312",
-            bully: false
-        };
-        var answer = 42;
-        answer = 'Thanks for all the fish...';
-    const isNull = null; //null is when the variable is empty
-    const isUndefined = undefined; //undefined is when the variable doesn't exist
-
-    console.log(string); //console.log() this is used to show data in the console press ctrl+Shift+I
-  
-
+let n = 10;
+console.log(halve(100));
+// → 50
+console.log(n);
+// → 10
+    // let x = 10;
+//if (true) {
+  //let y = 20;
+  //var z = 30;
+  //console.log(x + y + z);
+  // → 60
+//}
+// y is not visible here
+//console.log(x + z);
+// → 40
     </script>
 </body>
 </html>
