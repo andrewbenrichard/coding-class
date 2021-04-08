@@ -10,14 +10,37 @@
 </head>
 <body>
     <div id="app">
-        {{ message }}
+      <h4>user posts is {{post}}</h4>
+     <h1> {{message}}</h1>
+      <div v-for="user in users" :key="user.index">
+      <h1>the username is {{user.username}} </h1>   
+      <p>The location is {{user.location}}</p> 
+      <button @click="updateData(user.username)">Change message</button>
+      </div>
       </div>
     <script>
  var app = new Vue({
   el: '#app',
   data: {
-    message: 'Hello Vue!'
-  }
+    message: 'Hello Vue!',
+    post: 12000,
+    users:[
+      {
+        username: "Andrew",
+        location: "Abj"
+      },
+      {
+        username: "Gideon",
+        location: "LAG"
+      }
+    ]
+  },
+  methods: {
+    updateData(val){
+    
+      this.message = "Hello "+val
+    }
+  },
 })
     </script>
 </body>
